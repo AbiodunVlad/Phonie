@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="phonie.css" rel="stylesheet" />
+    <title>Phonie</title>
+    <script src="phonie.js"></script>
+  </head>
+  <body>
+    <div>
+      <p class="heading">Phonie</p>
+      <div class="main-card">
+        <h1>Validate Your Number</h1>
+        <p>Use Phonie to validate your phone number</p>
+        <form>
+          <div class="form-segments">
+            <div>
+              <label>First Name</label><br />
+              <input
+                type="text"
+                name="firstName"
+                placeholder="Your first name"
+                class="inputs"
+              />
+            </div>
+            <div class="right-field">
+              <label>Last Name</label><br />
+              <input
+                type="text"
+                name="lastName"
+                placeholder="Your last name"
+                class="inputs"
+              />
+            </div>
+          </div>
+          <div class="form-segments segment-two">
+            <div>
+              <label>Network Carrier</label><br />
+              <select name="network" class="select">
+                <option value="select" disabled selected hidden>
+                  Selected
+                </option>
+                <option value="Airtel">Airtel</option>
+                <option value="Etisalat">Etisalat</option>
+                <option value="Glo">Glo</option>
+                <option value="MTN">MTN</option>
+              </select>
+            </div>
+            <div class="right-field">
+              <label>Phone Number</label><br />
+              <input
+                type="tel"
+                name="phone"
+                placeholder="+234"
+                class="inputs"
+              />
+            </div>
+          </div>
+
+          <button class="validate">Validate</button>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <p>Copyright &COPY; Phonie 2022</p>
+    </footer>
+  </body>
+</html>
